@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 50px;
+  font-family: Karla, Arial, sans-serif;
+  font-style: light;
+  color: #2C2C6C;
+}
+/*=====TABLE STYLES====*/
+table{
+  background-color: #2C2C6C;
+  color: white;
+  width: 80%;
+  text-align: center;
+  margin: 0  auto;
+}
+td{
+  text-align: left;
+  padding-left: 2rem;
+  
+}
+
+/*==== FOOTER STYLES ====*/
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  text-align: center;  
+}
+
+/*==== HEADER STYLES ====*/
+
+.header{
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header_exe{
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  vertical-align: middle;
+ 
+}
+img{
+  margin: 0.2rem;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-style: bold;
+}
+
+
+/*=====MAIN STYLES====*/
+main{
+width:50%;
+text-align: center;
+margin: 1rem  auto;
+}
+
+
+
+h2{
+  font-size: 1.2rem;
+  padding: .5rem 0; 
+}
+
+
+.exe{
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #2C2C6C;
+  border-radius: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #2C2C6C;
+}
+
+.exe:hover{
+  background-color: #2C2C6C;
+  color: white;
+}
+
+.exe:active {
+  background-color: #2C2C6C;
+  color: white;
+}
+
+
+
+
